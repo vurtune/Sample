@@ -1,0 +1,39 @@
+.root {
+     -fx-background-color:#DABB96;
+}
+
+.label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.9) , 0,0,0,1 );
+}
+.button:hover {
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.9) , 0,1,1,1 );
+-fx-font-size:15px;
+-fx-background-color:#E5781F;
+}
+.button {
+-fx-font-size:14px;
+-fx-background-color :#969EF1;
+}
+
+#mi:hover {
+-fx-font-size:15px;
+-fx-background-color:#F78305;
+}
+#mi {
+-fx-background-color :#507299;
+}
+#ah {
+-fx-background-color:#507299;
+}
+#ah:hover {
+-fx-background-color:#F78305;
+}
+#ap {
+-fx-background-color:#507299;
+}
+#LV {
+-fx-background-color:#507299;
+}

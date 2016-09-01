@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" stylesheets="@../Css/myCssFile.css.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Controller">
+   <top>
+      <MenuBar id="ah" prefHeight="31.0" prefWidth="414.0" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Меню">
+            <items>
+              <MenuItem id="mi" mnemonicParsing="false" onAction="#Exit" text="Выход" />
+                  <MenuItem id="mi" mnemonicParsing="true" onAction="#in" text="Музыка вкл." />
+                  <MenuItem id="mi" mnemonicParsing="true" onAction="#off" text="Музыка выкл." />
+                  <MenuItem id="mi" mnemonicParsing="false" onAction="#SWITCH" text="Cменить музыку" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Разработка">
+            <items>
+              <MenuItem id="mi" mnemonicParsing="false" onAction="#showinfo" text="Об авторах" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Помощь">
+            <items>
+              <MenuItem id="mi" mnemonicParsing="false" onAction="#showhelp" text="Описание программы" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Окружение">
+              <items>
+                <MenuItem id="mi" mnemonicParsing="false" onAction="#Used" text="Инструменты использованные для написания." />
+              </items>
+            </Menu>
+        </menus>
+         <BorderPane.margin>
+            <Insets top="10.0" />
+         </BorderPane.margin>
+      </MenuBar>
+   </top>
+   <center>
+      <Pane id="pane" prefHeight="376.0" prefWidth="978.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="460.0" layoutY="188.0" mnemonicParsing="false" onAction="#ff" prefHeight="22.0" prefWidth="90.0" text="Суббота" textFill="#000000">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="255.0" layoutY="188.0" mnemonicParsing="false" onAction="#ee" prefHeight="22.0" prefWidth="90.0" text="Пятница" textFill="#000000">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="60.0" layoutY="188.0" mnemonicParsing="false" onAction="#dd" prefHeight="22.0" prefWidth="90.0" text="Четверг" textFill="#000000">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="460.0" layoutY="37.0" mnemonicParsing="false" onAction="#cc" prefHeight="22.0" prefWidth="90.0" text="Среда" textFill="#000000">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="255.0" layoutY="37.0" mnemonicParsing="false" onAction="#bb" prefHeight="22.0" prefWidth="90.0" text="Вторник" textFill="#000000">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="60.0" layoutY="37.0" mnemonicParsing="false" onAction="#aa" prefHeight="22.0" prefWidth="117.0" text="Понедельник" textFill="#000000">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </center>
+   <right>
+      <TitledPane animated="true" prefHeight="610.0" prefWidth="600.0" text="Расписание" BorderPane.alignment="TOP_RIGHT">
+        <content>
+          <AnchorPane id="ap" minHeight="0.0" minWidth="0.0" prefHeight="410.0" prefWidth="604.0">
+               <children>
+                  <Label fx:id="response" layoutX="19.0" layoutY="7.0" prefHeight="318.0" prefWidth="285.0" text="Выберите день недели." textFill="#02022f" AnchorPane.bottomAnchor="260.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="20.0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <ListView id="LV" layoutX="313.0" layoutY="15.0" prefHeight="356.0" prefWidth="259.0" AnchorPane.bottomAnchor="24" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="15.0" />
+                  <Text layoutX="428.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1)8:00-8:40" textAlignment="JUSTIFY" wrappingWidth="90.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Text>
+                  <Text layoutX="428.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2)8:50-9:30" textAlignment="JUSTIFY" wrappingWidth="90.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Text>
+                  <Text layoutX="428.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3)9:45-10:25" textAlignment="JUSTIFY" wrappingWidth="90.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Text>
+                  <Text layoutX="428.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4)10:45-11:25" textAlignment="JUSTIFY" wrappingWidth="90.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Text>
+                  <Text layoutX="428.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5)11:40-12:20" textAlignment="JUSTIFY" wrappingWidth="90.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Text>
+                  <Text layoutX="428.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6)12:30-13:10" textAlignment="JUSTIFY" wrappingWidth="90.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Text>
+                  <Text layoutX="428.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7)13:20-14:00" textAlignment="JUSTIFY" wrappingWidth="90.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Text>
+                  <Text layoutX="428.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8)14:05-14:45" wrappingWidth="90.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="dd" layoutX="22.0" layoutY="17.0" prefHeight="14.0" prefWidth="249.0" text="День недели" textAlignment="CENTER" textFill="#08f868">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+        </content>
+         <id>qwe</id>
+      </TitledPane>
+   </right>
+   <bottom>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="©The KinGames,2016| Все права защищены." wrappingWidth="293.33935546875" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </bottom>
+</BorderPane>

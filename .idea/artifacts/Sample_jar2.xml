@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Sample:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/Sample_jar2</output-path>
+    <root id="archive" name="Sample.jar">
+      <element id="module-output" name="Sample" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/FXCONTROLLS/controlsfx-8.20.9.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
