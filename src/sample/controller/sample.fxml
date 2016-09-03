@@ -44,34 +44,34 @@
       </MenuBar>
    </top>
    <center>
-      <Pane id="pane" prefHeight="376.0" prefWidth="978.0" BorderPane.alignment="CENTER">
+      <Pane id="pane" prefHeight="422.0" prefWidth="0.0" BorderPane.alignment="CENTER">
          <children>
-            <Button layoutX="460.0" layoutY="188.0" mnemonicParsing="false" onAction="#ff" prefHeight="22.0" prefWidth="90.0" text="Суббота" textFill="#000000">
+            <Button layoutX="450.0" layoutY="250.0" mnemonicParsing="false" onAction="#ff" prefHeight="22.0" prefWidth="120.0" text="Суббота" textFill="#000000">
                <font>
                   <Font size="13.0" />
                </font>
             </Button>
-            <Button layoutX="255.0" layoutY="188.0" mnemonicParsing="false" onAction="#ee" prefHeight="22.0" prefWidth="90.0" text="Пятница" textFill="#000000">
+            <Button layoutX="450.0" layoutY="150.0" mnemonicParsing="false" onAction="#ee" prefHeight="22.0" prefWidth="120.0" text="Пятница" textFill="#000000">
                <font>
                   <Font size="13.0" />
                </font>
             </Button>
-            <Button layoutX="60.0" layoutY="188.0" mnemonicParsing="false" onAction="#dd" prefHeight="22.0" prefWidth="90.0" text="Четверг" textFill="#000000">
+            <Button layoutX="450.0" layoutY="50.0" mnemonicParsing="false" onAction="#dd" prefHeight="22.0" prefWidth="120.0" text="Четверг" textFill="#000000">
                <font>
                   <Font size="13.0" />
                </font>
             </Button>
-            <Button layoutX="460.0" layoutY="37.0" mnemonicParsing="false" onAction="#cc" prefHeight="22.0" prefWidth="90.0" text="Среда" textFill="#000000">
+            <Button layoutX="100.0" layoutY="250.0" mnemonicParsing="false" onAction="#cc" prefHeight="22.0" prefWidth="120.0" text="Среда" textFill="#000000">
                <font>
                   <Font size="13.0" />
                </font>
             </Button>
-            <Button layoutX="255.0" layoutY="37.0" mnemonicParsing="false" onAction="#bb" prefHeight="22.0" prefWidth="90.0" text="Вторник" textFill="#000000">
+            <Button layoutX="100.0" layoutY="150.0" mnemonicParsing="false" onAction="#bb" prefHeight="22.0" prefWidth="120.0" text="Вторник" textFill="#000000">
                <font>
                   <Font size="13.0" />
                </font>
             </Button>
-            <Button layoutX="60.0" layoutY="37.0" mnemonicParsing="false" onAction="#aa" prefHeight="22.0" prefWidth="117.0" text="Понедельник" textFill="#000000">
+            <Button layoutX="100.0" layoutY="50.0" mnemonicParsing="false" onAction="#aa" prefHeight="22.0" prefWidth="120.0" text="Понедельник" textFill="#000000">
                <font>
                   <Font size="13.0" />
                </font>
@@ -80,7 +80,7 @@
       </Pane>
    </center>
    <right>
-      <TitledPane animated="true" prefHeight="610.0" prefWidth="600.0" text="Расписание" BorderPane.alignment="TOP_RIGHT">
+      <TitledPane animated="true" prefHeight="610.0" prefWidth="600.0" text="Расписание" visible="true" BorderPane.alignment="TOP_RIGHT">
         <content>
           <AnchorPane id="ap" minHeight="0.0" minWidth="0.0" prefHeight="410.0" prefWidth="604.0">
                <children>
