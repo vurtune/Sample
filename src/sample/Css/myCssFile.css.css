@@ -15,25 +15,27 @@
 }
 .button {
 -fx-font-size:14px;
--fx-background-color :#969EF1;
+-fx-background-color :#D9E1D8;
+}
+#Menu:hover {
+-fx-background-color:#DABB96;
 }
 
 #mi:hover {
 -fx-font-size:15px;
--fx-background-color:#F78305;
+-fx-background-color:#DABB96;
 }
 #mi {
--fx-background-color :#507299;
+-fx-background-color :#D9E1D8;
 }
 #ah {
--fx-background-color:#507299;
+-fx-background-color:#D9E1D8;
 }
-#ah:hover {
--fx-background-color:#F78305;
 }
 #ap {
--fx-background-color:#507299;
+-fx-background-color:#D9E1D8;
 }
 #LV {
--fx-background-color:#507299;
+-fx-background-color:#DABB96;
+;
 }
